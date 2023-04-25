@@ -2,7 +2,7 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-menu = [{"name": "Главная", "url": "/"},
+menu = [{"name": "Uлавная", "url": "/"},
         {"name": "Заказы", "url": "orders"},
         {"name": "Сотрудники", "url": "employers"},
         {"name": "Анализ", "url": "analysis"},]
